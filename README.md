@@ -23,18 +23,20 @@ KVM berjalan diatas kernel Linux untuk menghasilkan performa yang lebih efisien.
 
 ### Fleksibilitas dan Skalabilitas
 
+Selain performa, KVM juga unggul dalam segi fleksibilitas dan skalabilitas. Teknologi ini sangat cocok untuk pengguna yang membuatuhkan virutalisasi kokoh dengan tingkat kontrol dan fleksibilitas tinggi. Misalnya, menjalankan beberapa sistem operasi di satu server atau membangun infrastruktur bebasis cloud.
 
+### Tersedia di berbagai macam sistem operasi.
 
+KVM terintegrasi dengan kernel Linux dan memerlukan OS Linux sebagai hostnya. Namun, berdasarkan data dari laman linux-kvm.org, KVM juga mendukung banyak sistem operasi lain seperti Windows, FreeBSD, Solaris, Plan 9, Haiku OS dan lainnya, sebagai sistem operasi tamu atau guest OS.
 
+### Didukung oleh RAM dan CPU tersendiri
 
-
-
-
+KVM Server memiliki alokasi sumber daya sendiri, termasuk RAM dan CPU. Setiap server di dalam kernel merupakan dedicated sehingga kamu tidak dapat menggunakan resource milik orang lain, begitupun sebaliknya. Sebab, setiap pengguna memiliki sumberdaya tersendiri sehingga performa KVM dipastikan selalu stabil dan optimal.
 
 Referensi:
 
 - https://dte.telkomuniversity.ac.id/mengenal-kernel-dan-tugasnya-dalam-kinerja-sebuah-operational-system/
+- https://www.dewaweb.com/blog/apa-itu-kvm/
 - https://cloudmatika.co.id/blog-detail/kvm-adalah
 - https://www.niagahoster.co.id/blog/kvm-adalah/
-
-## 
+- https://linux-kvm.org/page/Main_Page
