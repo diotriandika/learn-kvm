@@ -128,3 +128,24 @@ Terakhir beri nama VM
 ![image-20240904142240458](https://github.com/user-attachments/assets/de050be5-59be-4ebf-b953-90de5ac0ad87)
 
 
+### Method 2 - virt-install (CLI)
+
+Untuk dapat membuat VM dicommand-line, kita dapat menggunakan tool `virt-install`
+
+```bash
+$ sudo virt-install --name=ubuntu-test \
+> --ram=4096 \
+> --vcpus=2 \
+> --disk path=/var/lib/libvirt/images/ubuntu-test.qcow2,size=15 \
+> --cdrom /path/to/iso/ubuntu-22.04.4-live-server-amd64.iso \
+> --graphics vnc
+```
+
+![2024-09-04_14-41](https://github.com/user-attachments/assets/88679d8f-732f-42df-b3e7-a02dc00771d3)
+
+Options yang tersedia :
+
+![Screenshot from 2024-09-04 14-43-58](https://github.com/user-attachments/assets/b378a974-fdcf-4646-8d8b-2edc2617bb36)
+
+
+
